@@ -1,0 +1,126 @@
+# Copyright (C) 2023 Conexa
+# This file is distributed under the same license as the Skydropx: Cotizador y Envios plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Skydropx: Cotizador y Envios 1.0.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/skydropxwoo\n"
+"POT-Creation-Date: 2023-03-27T21:03:33+02:00\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: skydropx\n"
+"Language: es_MX\n"
+
+
+#. Plugin Name of the plugin
+msgid "Skydropx: Cotizador y Envios"
+msgstr "Skydropx: Cotizador y Envios"
+
+#. Description of the plugin
+msgid "Método de Envío Skydropx para WooCommerce."
+msgstr "Método de Envío Skydropx para WooCommerce."
+
+#. Author of the plugin
+msgid "Conexa"
+msgstr "Conexa"
+
+#. Author URI of the plugin
+msgid "https://conexa.ai"
+msgstr "https://conexa.ai"
+
+#: skydropx.php:44
+msgid "<strong>%1$s/strong> Requiere al menos %2$s versión %3$s o superior."
+msgstr "<strong>%1$s/strong> Requiere al menos %2$s versión %3$s o superior."
+
+#: skydropx.php:52
+msgid "WooCommerce debe estar activo antes de usar <strong>%s</strong>"
+msgstr "WooCommerce debe estar activo antes de usar <strong>%s</strong>"
+
+#: src/helper/class-woocommerce-trait.php:570
+msgid "Helper -> Error obteniendo productos del carrito, producto con malas dimensiones - ID: "
+msgstr "Helper -> Error obteniendo productos del carrito, producto con malas dimensiones - ID: "
+
+#: src/helper/class-woocommerce-trait.php:598
+#: src/sdk/class-skydropx-sdk.php:60
+msgid "Helper -> Error obteniendo productos de la orden, producto con malas dimensiones - ID: "
+msgstr "Helper -> Error obteniendo productos de la orden, producto con malas dimensiones - ID: "
+
+#: src/orders/class-webhook.php:43
+msgid "- Webhook recibido de Skydropx:"
+msgstr "- Webhook recibido de Skydropx:"
+
+#: src/orders/class-webhook.php:57
+msgid "WooCommerce Skydropx Webhook no válido."
+msgstr "WooCommerce Skydropx Webhook no válido."
+
+#: src/orders/class-webhook.php:99
+msgid "- Webhook recibido sin userId."
+msgstr "- Webhook recibido sin userId."
+
+#: src/orders/class-webhook.php:107
+msgid "- userId inválido."
+msgstr "- userId inválido."
+
+#: src/orders/class-webhook.php:116
+msgid "- Webhook recibido sin orderId."
+msgstr "- Webhook recibido sin orderId."
+
+#: src/orders/class-webhook.php:123
+msgid "- Webhook recibido sin status."
+msgstr "- Webhook recibido sin status."
+
+#: src/orders/class-webhook.php:143
+msgid "- No existe orden."
+msgstr "- No existe orden."
+
+#: src/orders/class-webhook.php:151
+msgid "- Status no válido."
+msgstr "- Status no válido."
+
+#: src/orders/class-webhook.php:161
+msgid "- Orden no tiene método de envío."
+msgstr "- Orden no tiene método de envío."
+
+#: src/orders/class-webhook.php:170
+msgid "- Orden no tiene Skydropx como método de envío."
+msgstr "- Orden no tiene Skydropx como método de envío."
+
+#: src/orders/class-webhook.php:181
+msgid "Skydropx> ( %s )."
+msgstr "Skydropx> ( %s )."
+
+#: src/panel/class-main.php:23
+#: src/panel/class-main.php:24
+#: src/shippingmethod/class-wc-skydropx.php:26
+#: src/shippingmethod/class-wc-skydropx.php:109
+#: src/shippingmethod/settings.php:17
+msgid "Skydropx"
+msgstr "Skydropx-MX"
+
+#: src/shippingmethod/class-wc-skydropx.php:27
+msgid "Permite a tus clientes calcular el costo del envío por Skydropx."
+msgstr "Permite a tus clientes calcular el costo del envío por Skydropx."
+
+#: src/shippingmethod/class-wc-skydropx.php:125
+msgid "El pedido llega en %s días."
+msgstr "El pedido llega en %s días."
+
+#: src/shippingmethod/class-wc-skydropx.php:128
+msgid "El pedido llega mañana."
+msgstr "El pedido llega mañana."
+
+#: src/shippingmethod/class-wc-skydropx.php:130
+msgid "El pedido llega hoy."
+msgstr "El pedido llega hoy."
+
+#: src/shippingmethod/settings.php:14
+msgid "Nombre Método Envío"
+msgstr "Nombre Método Envío"
+
+#: src/shippingmethod/settings.php:16
+msgid "Nombre con el que aparecerá el tipo de envío en tu tienda."
+msgstr "Nombre con el que aparecerá el tipo de envío en tu tienda."

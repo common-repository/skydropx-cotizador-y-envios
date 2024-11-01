@@ -1,0 +1,124 @@
+# Copyright (C) 2023 Conexa
+# This file is distributed under the same license as the Skydropx: Cotizador y Envios plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Skydropx: Cotizador y Envios 1.0.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/skydropxwoo\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-27T21:03:33+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: skydropx\n"
+
+#. Plugin Name of the plugin
+msgid "Skydropx: Cotizador y Envios"
+msgstr ""
+
+#. Description of the plugin
+msgid "Método de Envío Skydropx para WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+msgid "Conexa"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://conexa.ai"
+msgstr ""
+
+#: skydropx.php:44
+msgid "<strong>%1$s/strong> Requiere al menos %2$s versión %3$s o superior."
+msgstr ""
+
+#: skydropx.php:52
+msgid "WooCommerce debe estar activo antes de usar <strong>%s</strong>"
+msgstr ""
+
+#: src/helper/class-woocommerce-trait.php:570
+msgid "Helper -> Error obteniendo productos del carrito, producto con malas dimensiones - ID: "
+msgstr ""
+
+#: src/helper/class-woocommerce-trait.php:598
+#: src/sdk/class-skydropx-sdk.php:60
+msgid "Helper -> Error obteniendo productos de la orden, producto con malas dimensiones - ID: "
+msgstr ""
+
+#: src/orders/class-webhook.php:43
+msgid "- Webhook recibido de Skydropx:"
+msgstr ""
+
+#: src/orders/class-webhook.php:57
+msgid "WooCommerce Skydropx Webhook no válido."
+msgstr ""
+
+#: src/orders/class-webhook.php:99
+msgid "- Webhook recibido sin userId."
+msgstr ""
+
+#: src/orders/class-webhook.php:107
+msgid "- userId inválido."
+msgstr ""
+
+#: src/orders/class-webhook.php:116
+msgid "- Webhook recibido sin orderId."
+msgstr ""
+
+#: src/orders/class-webhook.php:123
+msgid "- Webhook recibido sin status."
+msgstr ""
+
+#: src/orders/class-webhook.php:143
+msgid "- No existe orden."
+msgstr ""
+
+#: src/orders/class-webhook.php:151
+msgid "- Status no válido."
+msgstr ""
+
+#: src/orders/class-webhook.php:161
+msgid "- Orden no tiene método de envío."
+msgstr ""
+
+#: src/orders/class-webhook.php:170
+msgid "- Orden no tiene Skydropx como método de envío."
+msgstr ""
+
+#: src/orders/class-webhook.php:181
+msgid "Skydropx> ( %s )."
+msgstr ""
+
+#: src/panel/class-main.php:23
+#: src/panel/class-main.php:24
+#: src/shippingmethod/class-wc-skydropx.php:26
+#: src/shippingmethod/class-wc-skydropx.php:109
+#: src/shippingmethod/settings.php:17
+msgid "Skydropx"
+msgstr ""
+
+#: src/shippingmethod/class-wc-skydropx.php:27
+msgid "Permite a tus clientes calcular el costo del envío por Skydropx."
+msgstr ""
+
+#: src/shippingmethod/class-wc-skydropx.php:125
+msgid "El pedido llega en %s días."
+msgstr ""
+
+#: src/shippingmethod/class-wc-skydropx.php:128
+msgid "El pedido llega mañana."
+msgstr ""
+
+#: src/shippingmethod/class-wc-skydropx.php:130
+msgid "El pedido llega hoy."
+msgstr ""
+
+#: src/shippingmethod/settings.php:14
+msgid "Nombre Método Envío"
+msgstr ""
+
+#: src/shippingmethod/settings.php:16
+msgid "Nombre con el que aparecerá el tipo de envío en tu tienda."
+msgstr ""
